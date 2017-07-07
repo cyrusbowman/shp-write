@@ -56,6 +56,6 @@ module.exports.shpLength = function(coordinates) {
     // header: 8 bytes + shape type (4 bytes) +
     // either 2 * 8 bytes (XY) or 4 * 8 bytes (XYZM)
     return coordinates.reduce(function(length, coordinate) {
-        return length + coordinate.length === 3 ? 44 : 28;
+        return length + (coordinate.length === 3 ? 44 : 28);
     }, 0);
 };
