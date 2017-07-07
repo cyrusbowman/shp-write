@@ -1,10 +1,9 @@
 [![Build Status](https://secure.travis-ci.org/mapbox/shp-write.svg?branch=master)](http://travis-ci.org/mapbox/shp-write)
 
-# @webprofijt/shp-write
+# @cyrusbowman/shp-write
 
-A fork of [shp-write](https://www.npmjs.com/package/shp-write) with support for 3D-shapes.
-Intent is to contribute this to shp-write. Unless you need 3D support it is recommended to
-use shp-write instead.
+A fork of [shp-write](https://github.com/webprofijt/shp-write)
+Async zip with support for returned content type.
 
 Writes shapefile in pure javascript. Uses [dbf](https://github.com/tmcw/dbf)
 for the data component, and [jsZIP](http://stuk.github.io/jszip/) to generate
